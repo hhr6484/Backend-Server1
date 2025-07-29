@@ -8,8 +8,8 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: { 
     origin: [
-      'https://chic-daffodil-d53ad6.netlify.app',   // client URL
-      'https://coruscating-gumption-0a4b75.netlify.app' // kitchen URL
+      'https://vocal-concha-17445e.netlify.app/',   // client URL
+      'https://cheerful-croissant-72904b.netlify.app/' // kitchen URL
     ],
     methods: ['GET', 'POST']
   },
