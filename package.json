@@ -5,9 +5,9 @@
   "type": "module",
   "main": "server.js",
 "scripts": {
-  "start": "node src/server.js",
-  "build": "echo 'No build step needed for backend'"
-},
+ "start": "node backend/server.js"
+}
+,
   "dependencies": {
     "express": "^5.1.0",
     "socket.io": "^4.8.1"
